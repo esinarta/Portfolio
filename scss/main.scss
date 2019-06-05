@@ -1,8 +1,8 @@
-$primary-color: grey;
-
-body {
-  background: $primary-color;
-}
+$orange-yellow: #F3C969;
+$outer-space: #413F54;
+$toolbox: #7D70BA;
+$pale-lavender: #DEC1FF;
+$davys-grey: #545454;
 
 /* Global styling */
 * {
@@ -18,7 +18,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: url("") no-repeat center fixed;
+  background: $davys-grey;
   background-size: cover;
 }
 
@@ -79,6 +79,11 @@ img {
 header {
   width: 100%;
   height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/DSC03821.jpg');
+  background-size: cover;
+  filter: opacity(5);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top-nav {
@@ -124,10 +129,10 @@ li {
 
 .menu-toggle {
   position: absolute;
-  top: 64px;
-  right: 64px;
-  width: 64px;
-  height: 48px;
+  top: 48px;
+  right: 48px;
+  width: 48px;
+  height: 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -153,7 +158,7 @@ li {
 }
 
 .open .bar.start {
-  transform: rotate(-90deg) translateX(10px) translateY(-32px);
+  transform: rotate(-90deg) translateX(8px) translateY(-24px);
 }
 
 .bar.end {
@@ -163,7 +168,7 @@ li {
 }
 
 .open .bar.end {
-  transform: rotate(-90deg) translateX(-10px) translateY(32px);
+  transform: rotate(-90deg) translateX(-8px) translateY(24px);
 }
 
 .landing-text {
@@ -188,6 +193,7 @@ li {
 .landing-text h4 {
   font-size: 20pt;
   font-weight: 300;
+  color: white;
 }
 
 /* About */
@@ -210,7 +216,13 @@ li {
   margin-right: 3rem;
 }
 
-.about-details {
+.profile-pic img {
+  border: 1px solid $outer-space;
+  border-radius: 1%;
+  box-shadow: 4px 4px 8px $outer-space;
+}
+
+.about-content {
   flex: 1;
 }
 
@@ -257,7 +269,7 @@ li {
 .icon-container {
   width: 4rem;
   height: 4rem;
-  border: 3px solid black;
+  border: 3px solid $outer-space;
   background-color: grey;
   margin-bottom: 1rem;
   display: flex;
@@ -265,7 +277,7 @@ li {
 }
 
 .icon-container i {
-  color: blue;
+  color: $outer-space;
   font-size: 40pt;
   margin: auto;
   transform: rotate(-45deg);
@@ -285,6 +297,7 @@ li {
 
 .project-pic {
   flex: 1;
+  margin-right: 4rem;
 }
 
 .project-desc {
@@ -321,7 +334,7 @@ li {
 
 /* Contact */
 .contact{
-  background-color: beige;
+  background-color: $pale-lavender;
 }
 
 /* Footer */
@@ -406,11 +419,11 @@ li {
     font-size: 20pt;
   }
 
-  .about-details .nav-list {
+  .about-content .nav-list {
     flex-direction: initial;
   }
 
-  .about-details li {
+  .about-content li {
     margin: 0 1rem;
   }
 
@@ -442,7 +455,7 @@ li {
     font-size: 28pt;
   }
 
-  .about .containter {
+  .about-me .container {
     flex-direction: column;
   }
 
@@ -454,5 +467,4 @@ li {
     flex-direction: column;
   }
 
-  
 }
