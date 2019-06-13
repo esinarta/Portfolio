@@ -20,6 +20,7 @@ body {
   height: 100%;
   background: $davys-grey;
   background-size: cover;
+  color: white;
 }
 
 section {
@@ -51,7 +52,7 @@ img {
 
 .section-heading {
   text-align: center;
-  color: grey;
+  color: white;
   margin-bottom: 8rem;
 }
 
@@ -226,23 +227,6 @@ li {
   flex: 1;
 }
 
-.icons {
-  margin-top: 3rem;
-}
-
-.icons i {
-  font-size: 4rem;
-  transition: color 700ms;
-}
-
-.fa-github-square:hover {
-  color: rgb(46, 46, 46);
-}
-
-.fa-linkedin:hover {
-  color: #4267b2;
-}
-
 /* Skills */
 .skills {
   margin-top: 8rem;
@@ -335,6 +319,23 @@ li {
 /* Contact */
 .contact{
   background-color: $pale-lavender;
+}
+
+.icons {
+  margin-top: 3rem;
+}
+
+.icons i {
+  font-size: 4rem;
+  transition: color 700ms;
+}
+
+.fa-github-square:hover {
+  color: rgb(46, 46, 46);
+}
+
+.fa-linkedin:hover {
+  color: #4267b2;
 }
 
 /* Footer */

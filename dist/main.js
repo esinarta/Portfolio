@@ -27,3 +27,11 @@ $(document).ready(function() {
     once: true
   });
 });
+
+VANTA.NET({
+  el: "#vanta",
+  points: 12.00,
+  maxDistance: 18.00,
+  spacing: 16.00,
+});
+
