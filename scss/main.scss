@@ -53,7 +53,7 @@ img {
 .section-heading {
   text-align: center;
   color: white;
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
 }
 
 .section-heading h2 {
@@ -315,9 +315,24 @@ li {
 }
 
 /* Interests */
+.photography {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interest-text {
+  font-size: 20pt;
+}
+
+.lightwidget {
+  width: 30%;
+  overflow: hidden;
+  margin-right: 2rem;
+}
 
 /* Contact */
-.contact{
+.contact {
   background-color: $pale-lavender;
 }
 
