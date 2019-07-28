@@ -10,11 +10,14 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
   <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/pace.css"/>
+
   <title>My Portfolio</title>
 </head>
 
 <body>
-  <header id="vanta">
+  
+  <header id="vanta(delete)">
     <div class="menu-toggle">
       <div class="bar start"></div>
       <div class="bar"></div>
@@ -43,7 +46,7 @@
 
     <div class="landing-text">
       <h1>Estevan Sinarta</h1>
-      <h4>BCIT CST Student</h5>
+      <h4>BCIT CST Co-op Student</h5>
     </div>
   </header>
 
@@ -57,7 +60,7 @@
           <h2>About Myself</h2>
         </div>
         <div id="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>I am a current BCIT Computer Systems Technology Co-op student searching for a co-op placement for January 2020. With a BA in Sociology and a minor in Psychology from the University of British Columbia, I am someone with a diverse background of skills and knowledge. Since then, I have began to pursue a career in tech and have gained even more tools in the form of theory, language, and frameworks more related to the field. I am well-rounded and self-driven, with professional, volunteer, and personal project experiences to show for my ability to excel in many different environments. </p>
         </div>
       </div>
     </div>
@@ -71,33 +74,39 @@
       <div class="skills">
         <div class="skill"  data-aos='fade-in' data-aos-delay='300'>
           <div class="icon-container">
-            <i class="fas fa-layer-group"></i>
+            <img src="/assets/java.png">
           </div>
           <h2>Java</h2>
         </div>
         <div class="skill" data-aos='fade-in' data-aos-delay='300'>
           <div class="icon-container">
-            <i class="fas fa-layer-group"></i>
+            <img src="/assets/javascript.png">
           </div>
           <h2>JavaScript</h2>
         </div>
         <div class="skill" data-aos='fade-in' data-aos-delay='300'>
           <div class="icon-container">
-            <i class="fas fa-layer-group"></i>
+            <img src="/assets/html.png">
           </div>
           <h2>HTML5</h2>
         </div>
         <div class="skill" data-aos='fade-in' data-aos-delay='300'>
           <div class="icon-container">
-            <i class="fas fa-layer-group"></i>
+            <img src="/assets/css.png">
           </div>
           <h2>CSS3</h2>
         </div>
         <div class="skill" data-aos='fade-in' data-aos-delay='300'>
           <div class="icon-container">
-            <i class="fas fa-layer-group"></i>
+            <img src="/assets/node.png">
           </div>
-          <h2>Other</h2>
+          <h2>Node</h2>
+        </div>
+        <div class="skill" data-aos='fade-in' data-aos-delay='300'>
+          <div class="icon-container">
+            <img src="/assets/mongo.png">
+          </div>
+          <h2>MongoDB</h2>
         </div>
       </div>
     </div>
@@ -115,7 +124,7 @@
         <div class="project-desc" data-aos='fade-left' data-aos-delay='600'>
           <h4>Web Development</h4>
           <h2>Campus Caterer</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Campus Caterer is a simple web app that allows users to choose from a list of goals pertaining to personal health or environmental sustainability and serves results for the most suitable food outlets to the user based on their goals. This was an academic project completed with 2 classmates that acted as an introduction to web development concepts such as HTML, CSS, JavaScript, Firebase, as well as project management concepts such as GitHub, Agile, and Sprint.  </p>
           <a href="#" class="cta">Details</a>
         </div>
       </div>
@@ -126,13 +135,13 @@
         <div class="project-desc" data-aos='fade-left' data-aos-delay='600'>
           <h4>Web Development</h4>
           <h2>Parked</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Parked is a proof-of-concept web app that intends to consolidate multiple pay-for-parking services into one. It was completed in a team of 5 as an academic project by using a Git feature branch workflow with Agile and Sprint methodologies. Tools and frameworks used included HTML, CSS, JavaScript, Bootstrap, Sass, Mongoose, MongoDB, and LeafletJS with OpenStreetMaps. </p>
           <a href="#" class="cta">Details</a>
         </div>
       </div>
       <div class="project">
         <div class="project-pic" data-aos='fade-right' data-aos-delay='300'>
-          <img src="" alt="">
+          <img src="https://via.placeholder.com/300x150" alt="">
         </div>
         <div class="project-desc" data-aos='fade-left' data-aos-delay='600'>
           <h4>Web Development</h4>
@@ -150,13 +159,25 @@
         <h2>Interests</h2>
       </div>
     </div>
-    <div class="photography">
+    <div class="photography" data-aos='fade-right' data-aos-delay='300'>
       <!-- LightWidget WIDGET -->
       <div class="lightwidget">
         <iframe src="//lightwidget.com/widgets/36ae4614aaa8525e86fc7a14b9e1daa3.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
       </div>
-      <div class="interest-text">Portrait and Travel Photography</div>
+      <div class="interest-text">
+        <h2>Photography</h2>
+        <p>Portrait and Travel Photography</p>
+      </div>
     </div>
+    <!--<div class="sports" data-aos='fade-left' data-aos-delay='300'>
+      <div class="interest-text">
+        <h2>Sports</h2>
+        <p>Playing Basketball, Volleyball, Ultimate Frisbee and Following Professional/College Athletics</p>
+      </div>
+      <div class="sports-teams">
+
+      </div>
+    </div>-->
   </section>
 
   <section class="contact" id="contact">
