@@ -5,7 +5,7 @@
 
 html {
   font-size: 12pt;
-  font-family: Roboto; }
+  font-family: Montserrat; }
 
 body {
   width: 100%;
@@ -19,7 +19,7 @@ section {
 
 a {
   text-decoration: none;
-  color: goldenrod; }
+  color: #da8cd1; }
 
 p {
   font-size: 11pt;
@@ -75,7 +75,7 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: grey;
+  background-image: linear-gradient(to bottom right, #b3b3b3, #555555);
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
   transition: all 700ms cubic-bezier(1, 0, 0, 1); }
@@ -178,9 +178,11 @@ li {
 
 .profile-pic {
   flex: 1;
-  margin-right: 3rem; }
+  margin-left: 2rem; }
 
 .profile-pic img {
+  width: 70%;
+  height: auto;
   border: 1px solid #413F54;
   border-radius: 1%;
   box-shadow: 4px 4px 8px #413F54; }
@@ -292,6 +294,9 @@ li {
   font-size: 4rem;
   transition: color 700ms; }
 
+.fa-envelope:hover {
+  color: #3758b1; }
+
 .fa-github-square:hover {
   color: #2e2e2e; }
 
@@ -319,7 +324,7 @@ li {
   cursor: pointer; }
 
 .up i {
-  color: goldenrod;
+  color: black;
   font-size: 1rem;
   margin: auto; }
 
@@ -330,11 +335,11 @@ li {
 /* Animation */
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.9); }
+    box-shadow: 0 0 0 0 rgba(25, 26, 109, 0.9); }
   70% {
-    box-shadow: 0 0 0 1rem rgba(253, 87, 191, 0); }
+    box-shadow: 0 0 0 1rem rgba(25, 26, 109, 0); }
   100% {
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0); } }
+    box-shadow: 0 0 0 0 rgba(25, 26, 109, 0); } }
 
 /* Media Queries */
 @media screen and (max-width: 768px) {

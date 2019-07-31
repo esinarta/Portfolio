@@ -12,7 +12,7 @@ $davys-grey: #545454;
 
 html {
   font-size : 12pt;
-  font-family: Roboto;
+  font-family: Montserrat;
 }
 
 body {
@@ -29,7 +29,7 @@ section {
 
 a {
   text-decoration: none;
-  color: goldenrod;
+  color: rgb(218, 140, 209);
 }
 
 p {
@@ -93,7 +93,7 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: grey;
+  background-image: linear-gradient(to bottom right, rgb(179, 179, 179), rgb(85, 85, 85));
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
   transition: all 700ms cubic-bezier(1, 0, 0, 1);
@@ -214,10 +214,12 @@ li {
 
 .profile-pic {
   flex: 1;
-  margin-right: 3rem;
+  margin-left: 2rem;
 }
 
 .profile-pic img {
+  width: 70%;
+  height: auto;
   border: 1px solid $outer-space;
   border-radius: 1%;
   box-shadow: 4px 4px 8px $outer-space;
@@ -352,6 +354,10 @@ li {
   transition: color 700ms;
 }
 
+.fa-envelope:hover {
+  color: rgb(55, 88, 177);
+}
+
 .fa-github-square:hover {
   color: rgb(46, 46, 46);
 }
@@ -383,7 +389,7 @@ li {
 }
 
 .up i {
-  color: goldenrod;
+  color: black;
   font-size: 1rem;
   margin: auto;
 }
@@ -396,13 +402,13 @@ li {
 /* Animation */
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.9);
+    box-shadow: 0 0 0 0 rgba(25, 26, 109, 0.9);
   }
   70% {
-    box-shadow: 0 0 0 1rem rgba(253, 87, 191, 0);
+    box-shadow: 0 0 0 1rem rgba(25, 26, 109, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    box-shadow: 0 0 0 0 rgba(25, 26, 109, 0);
   }
 }
 
