@@ -30,8 +30,8 @@ $(document).ready(function() {
 
 VANTA.NET({
   el: "#vanta",
-  points: 12.00,
-  maxDistance: 18.00,
-  spacing: 16.00,
+  color: 0xFCA5F1,
+  backgroundColor: 0x343434,
+  showDots: false
 });
 
