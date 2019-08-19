@@ -29,7 +29,7 @@ $(document).ready(function() {
 });
 
 VANTA.NET({
-  el: "#vanta",
+  el: ".vanta",
   color: 0xFCA5F1,
   backgroundColor: 0x343434,
   showDots: false
