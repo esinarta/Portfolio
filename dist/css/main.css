@@ -303,11 +303,14 @@ li {
 .fa-envelope:hover {
   color: #3758b1; }
 
-.fa-github-square:hover {
+.fa-github:hover {
   color: #2e2e2e; }
 
-.fa-linkedin:hover {
+.fa-linkedin-in:hover {
   color: #4267b2; }
+
+.fa-instagram:hover {
+  color: #dd2a7b; }
 
 /* Footer */
 .copyright {
@@ -374,7 +377,7 @@ li {
     font-size: 100pt; }
   .landing-text h4 {
     font-size: 20pt; }
-  .nav-list {
+  .top-nav .nav-list {
     flex-direction: column; }
   li {
     margin: 1rem 0; }
@@ -392,7 +395,18 @@ li {
     width: 5rem;
     height: 5rem; }
   .icon-container i {
-    font-size: 36pt; } }
+    font-size: 36pt; }
+  .photography {
+    display: flex;
+    flex-direction: column; }
+  .lightwidget {
+    width: 80%;
+    justify-content: center; }
+  .interest-text {
+    justify-content: center;
+    margin-top: 1rem; }
+  .icons i {
+    margin: 1rem; } }
 
 @media screen and (max-width: 600px) {
   .menu-toggle {
@@ -407,6 +421,17 @@ li {
   .about-me .container {
     flex-direction: column; }
   .profile-pic {
-    margin: 0 0 4rem 0; }
+    margin: 0 0 4rem 6rem; }
   .project {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .project img {
+    justify-content: center; }
+  .photography {
+    display: flex;
+    flex-direction: column; }
+  .lightwidget {
+    width: 80%;
+    justify-content: center; }
+  .interest-text {
+    justify-content: center;
+    margin-top: 1rem; } }
