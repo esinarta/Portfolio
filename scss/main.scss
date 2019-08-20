@@ -13,6 +13,7 @@ $blue: #679fe4;
 html {
   font-size : 12pt;
   font-family: Montserrat;
+  overflow-x: hidden; 
 }
 
 body {
@@ -21,6 +22,7 @@ body {
   background: white;
   background-size: cover;
   color: black;
+  overflow-x: hidden; 
 }
 
 section {
@@ -522,6 +524,14 @@ li {
   .icons i {
     margin: 1rem;
   }
+
+  .up {
+    right: 2rem;
+  }
+
+  .vanta {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -576,5 +586,4 @@ li {
     justify-content: center;
     margin-top: 1rem;
   }
-
 }

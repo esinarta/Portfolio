@@ -27,12 +27,12 @@ $(document).ready(function() {
     once: true,
     disable: 'mobile'
   });
-});
 
-VANTA.NET({
-  el: ".vanta",
-  color: 0xFCA5F1,
-  backgroundColor: 0x343434,
-  showDots: false
+  VANTA.NET({
+    el: ".vanta",
+    color: 0xFCA5F1,
+    backgroundColor: 0x343434,
+    showDots: false
+  });
 });
 
