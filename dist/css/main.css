@@ -201,7 +201,7 @@ li {
 /* Skills */
 .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 2rem;
   text-align: center; }
 
@@ -276,8 +276,7 @@ li {
   justify-content: center; }
 
 .lightwidget {
-  width: 35%;
-  overflow: hidden;
+  width: 30%;
   margin-right: 2rem; }
 
 .sports {
